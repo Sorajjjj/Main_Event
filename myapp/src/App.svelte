@@ -6,7 +6,7 @@
 
 </script>
 <header>
-    <img src="/image/logoMainEvent.png" alt="logo Main Event">
+    <img src="/image/MainEventVariation3.png" alt="logo Main Event">
     
     <nav>
         <ButtonNavStyle href="/" label="Home" />
@@ -19,9 +19,7 @@
     </nav>
     <form class="buttonHeader">
 
-        <ButtonHeaderUser icone="hugeicons:search-01"  label="Search" />
-        
-        <ButtonHeaderUser icone="hugeicons:search-01"  label="Profile" />
+        <ButtonHeaderUser icone="hugeicons:user"  label="Search" />
         
     </form>
         
@@ -50,7 +48,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin: 2rem;
+        padding: 1rem;
         border-bottom: solid 1px var(--borderColorDark);
         border-image: linear-gradient(
         to right,
