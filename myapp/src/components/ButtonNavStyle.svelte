@@ -13,9 +13,6 @@
     position: absolute;
     bottom: -6px;
     left: 0;
-    
-    
-    
     width: 0%;
     height: 3px;
     background: linear-gradient(90deg,
