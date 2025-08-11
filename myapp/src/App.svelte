@@ -1,12 +1,13 @@
 <script>
     import Icon from "@iconify/svelte";
+    import ButtonNavStyle from "./components/ButtonNavStyle.svelte";
 
 </script>
 <header>
     <img src="/image/logoMainEvent.png" alt="logo Main Event">
     
     <nav>
-        <a href="">Home</a>
+        <ButtonNavStyle href="/" label="Home" />
         <a href="">Events</a>
         <a href="">Athletes</a>
         <a href="">Rankings</a>
@@ -32,6 +33,7 @@
         --borderColorDark : #414141;
         --primaryColor: #0F1119;
         --colorTextPrimary: #f7f7f7;
+        --colorOpponentOne: #00E4FF;
     }
 
     :global(body){
